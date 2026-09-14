@@ -7,7 +7,7 @@ A simple HTML & CSS meme generator page created for Assignment 2 - CSCS342 Web A
 This page recreates a meme template using HTML and CSS, including:
 - A photo styled with CSS
 - A bold uppercase heading (meme title)
-- A smaller italic caption below it
+- A smaller caption below it
 
 ## Files
 
