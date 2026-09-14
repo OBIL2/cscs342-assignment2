@@ -1,0 +1,51 @@
+/* remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* make the whole page black and center meme box */
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* black box holding the image + text */
+.meme-container {
+  background-color: black;
+  text-align: center;
+  padding: 40px;
+  width: 700px;
+}
+
+/* photo styling */
+.meme-image {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+/* big bold white heading */
+.meme-title {
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* smaller white caption text below the heading */
+.meme-caption {
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  text-align: center;
+  word-spacing: 2px;
+}
